@@ -1,0 +1,13 @@
+kind: Pod #Object Type
+apiVersion: v1 # API Version
+metadata: # describes the Object
+  name: pod2 # Name of the Object
+spec: # (properties of container) (you want) of the Object
+  containers: # Container details
+  - name: c00 # Name of the Container
+    image: centos # Base Image which is used to create Container
+    command: ["/bin/bash", "-c", "while true; do echo Hello-Kadhar; sleep 5 ; done"]
+  - name: c01
+    image: ubuntu
+    command: ["/bin/bash", "-c", "while true; do echo Hello-Yasar; sleep 5 ; done"]
+
