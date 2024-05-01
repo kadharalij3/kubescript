@@ -1,4 +1,4 @@
-kind: Pod #Object Type
+kind: Pod #Object Typ
 apiVersion: v1 # API Version
 metadata: # describes the Object
   name: pod2 # Name of the Object
